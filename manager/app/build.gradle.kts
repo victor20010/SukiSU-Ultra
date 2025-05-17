@@ -84,7 +84,7 @@ android {
     applicationVariants.all {
         outputs.forEach {
             val output = it as BaseVariantOutputImpl
-            output.outputFileName = "SukiSU_${managerVersionName}_${managerVersionCode}-$name.apk"
+            output.outputFileName = "SukiSU_${managerVersionName}_${managerVersionCode}-$name-(仅修改图标).apk"
         }
         kotlin.sourceSets {
             getByName(name) {
